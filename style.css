@@ -4,10 +4,12 @@
   box-sizing: border-box;
 }
 
+/* This is the Header of the page */
+
 .header {
   width: 100%;
   height: 40px;
-  background-color: #f1f1f1;
+  background-color: #313132;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -15,12 +17,36 @@
   opacity: 50%;
 }
 
+.header__navbar {
+  margin-left: 450px; /* TODO: make this flexible not absolute */
+  margin-right: 450px;
+  padding: 10px;
+}
+
+.header__navbar ul {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header__navbar a {
+  text-decoration: none;
+  color: #d6d6d6;
+}
+
+/* This is the Main body of the page */
+
 .main {
   width: 100%;
   /* height: 100%; */
   height: 800px; /* height of the main content; TODO:change it to something flexible */
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0.466);
 }
+
+/* This is the Footer of the page */
 
 .footer {
   width: 100%;
