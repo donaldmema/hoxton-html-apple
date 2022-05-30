@@ -166,14 +166,14 @@ a.fill-div {
   z-index: 10;
 }
 
-.nav-item a:hover {
+.banner__nav-item a:hover {
   text-decoration: underline;
 }
 
 .iphonese-banner {
   margin-top: 10px;
   background-image: url(./assets/images/iphone-se-wrapper.jpg);
-  background-size: 1350px;
+  background-size: 1400px;
   background-position: center;
   background-repeat: no-repeat;
   height: 700px;
@@ -187,16 +187,18 @@ a.fill-div {
   justify-content: center;
 }
 
-.iphone-se-h2 {
+.iphonese-banner .iphone-se-h2 {
   display: grid;
   grid-auto-flow: column;
   place-content: center;
+  margin-top: 0px;
 }
 
 .new-product-tag {
-  font-size: 15px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 550;
 }
-
 
 /* This is the Footer of the page */
 
