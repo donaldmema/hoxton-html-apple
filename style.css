@@ -16,12 +16,12 @@
 .header {
   width: 100%;
   height: 40px;
-  background-color: rgb(49 49 51);
+  background-color: #000000dd;
+  backdrop-filter: blur(10px);
   position: fixed;
   top: 0px;
   left: 0px;
-  z-index: 1;
-  /* opacity: 50%; */
+  z-index: 50;
 }
 
 .header__navbar {
@@ -66,10 +66,14 @@
 .main {
   width: 100%;
   /* height: 100%; */
-  height: 800px; /* height of the main content; TODO:change it to something flexible */
-  /* background-color: rgba(128, 128, 128, 0.466); */
+  height: auto; /* height of the main content; TODO:change it to something flexible */
   margin-top: 40px;
 }
+
+/* .main__best-products {
+  display: grid;
+  gap: 10px;
+} */
 
 .donation-banner {
   background-color: #f5f5f7;
@@ -109,6 +113,7 @@
   background-repeat: no-repeat;
   height: 700px;
   background-color: #fbfbfd;
+  position: relative;
 
   gap: 10px;
   display: grid;
@@ -116,21 +121,29 @@
   justify-content: center;
 }
 
-.iphone13-banner h2 {
+a.fill-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.promo-banner h2 {
   margin-top: 50px;
   font-size: 50px;
   font-weight: 700;
   color: initial;
 }
 
-.iphone13-banner h3 {
+.promo-banner h3 {
   font-size: 25px;
   font-weight: 200;
   color: initial;
   text-align: center;
 }
 
-.iphone13-banner ul {
+.promo-banner ul {
   list-style: none;
   display: grid;
   grid-auto-flow: column;
@@ -138,7 +151,7 @@
   gap: 10px;
 }
 
-.iphone13-banner__nav-item {
+.banner__nav-item {
   display: grid;
   grid-auto-flow: column;
   align-items: center;
@@ -147,14 +160,43 @@
   font-weight: 500;
 }
 
-.iphone13-banner__nav-item a {
+.banner__nav-item a {
   text-decoration: none;
   color: #06c;
+  z-index: 10;
 }
 
-.iphone13-banner__nav-item a:hover {
+.nav-item a:hover {
   text-decoration: underline;
 }
+
+.iphonese-banner {
+  margin-top: 10px;
+  background-image: url(./assets/images/iphone-se-wrapper.jpg);
+  background-size: 1350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  background-color: #fbfbfd;
+  position: relative;
+
+  gap: 10px;
+  display: grid;
+  place-items: center;
+  align-content: start;
+  justify-content: center;
+}
+
+.iphone-se-h2 {
+  display: grid;
+  grid-auto-flow: column;
+  place-content: center;
+}
+
+.new-product-tag {
+  font-size: 15px;
+}
+
 
 /* This is the Footer of the page */
 
