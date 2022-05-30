@@ -172,6 +172,7 @@ a.fill-div {
 
 .iphonese-banner {
   margin-top: 10px;
+  margin-bottom: 10px;
   background-image: url(./assets/images/iphone-se-wrapper.jpg);
   background-size: 1400px;
   background-position: center;
@@ -198,6 +199,21 @@ a.fill-div {
   margin-top: 50px;
   font-size: 20px;
   font-weight: 550;
+}
+
+.apple-tv-banner {
+  height: 97vh;
+  width: 99.1vw;
+  position: relative;
+}
+
+.apple-tv-banner video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  object-position: bottom;
+  z-index: 0;
 }
 
 /* This is the Footer of the page */
