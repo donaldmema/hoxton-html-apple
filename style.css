@@ -395,6 +395,18 @@ a.fill-div {
   background-position: center;
 }
 
+.promos-grid__item.security {
+  background: url(./assets/images/privacy.jpg) no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.promos-grid__item.right {
+  justify-content: end;
+  padding-top: 100px;
+  padding-right: 200px;
+}
+
 .promos-grid__item__title-apple-card {
   margin-top: 40px;
   display: grid;
