@@ -292,9 +292,10 @@ a.fill-div {
   background-color: #f5f5f7;
 }
 
+/* TODO: make this flexible not absolute */
 .footer__container {
-  margin-left: 450px; /* TODO: make this flexible not absolute */
-  margin-right: 450px;
+  margin-left: 20vw;
+  margin-right: 20vw;
 }
 
 .footer__notes {
@@ -302,7 +303,7 @@ a.fill-div {
   align-items: center;
   padding: 15px;
   gap: 10px;
-  /* border-bottom: 1px solid #6e6e73; */
+  border-bottom: 1px solid #d2d2d7;
 }
 
 .footer__notes p {
@@ -318,4 +319,28 @@ a.fill-div {
 
 .footer__notes a:hover {
   text-decoration: underline;
+}
+
+.footer__navigation {
+  padding: 15px;
+  display: grid;
+  justify-content: start;
+}
+
+.footer-navbar {
+  margin: 0px;
+  display: grid;
+  grid-auto-flow: column;
+  place-content: center;
+  gap: 10px;
+}
+
+.footer-navbar h4 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1d1d1f;
+}
+
+.footer-navbar ul {
+  list-style: none;
 }
