@@ -296,7 +296,7 @@ a.fill-div {
   display: grid;
   justify-content: center;
   align-content: start;
-  /* padding: 10px 20%; */
+  padding: 10px;
   text-align: center;
   gap: 10px;
   position: relative;
@@ -304,6 +304,7 @@ a.fill-div {
 
 .promos-grid__item.down {
   align-content: end;
+  padding-bottom: 50px;
 }
 
 .promos-grid__item__title {
@@ -323,7 +324,7 @@ a.fill-div {
 
 .promos-grid__item a {
   text-decoration: none;
-  color: #c6e1e6;
+  color: #06c;
 }
 
 .promos-grid__item a:hover {
@@ -341,6 +342,35 @@ a.fill-div {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+}
+
+.promos-grid__subtitle {
+  color: #bf4800;
+}
+
+.promos-grid__item__link {
+  display: grid;
+  grid-auto-flow: column;
+  place-content: center;
+  align-items: center;
+}
+
+.promos-grid__item.apple-trade-in {
+  background: url(./assets/images/apple-trade-in.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.promos-grid__subtitle {
+  margin-top: 50px;
+}
+
+.promos-grid__item__title-dark {
+  font-size: 40px;
+}
+
+.promos-grid__item__text-dark {
+  font-size: 20px;
 }
 
 /* This is the Footer of the page */
