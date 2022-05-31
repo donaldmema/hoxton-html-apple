@@ -373,6 +373,48 @@ a.fill-div {
   font-size: 20px;
 }
 
+.promos-grid__item.iphone-13 {
+  background: url(./assets/images/iphone-13.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.promos-grid__item.apple-watch h4 {
+  margin-top: 0px;
+}
+
+.promos-grid__item.apple-watch {
+  background: url(./assets/images/watch-series7.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.promos-grid__item.apple-card {
+  background: url(./assets/images/apple-card.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.promos-grid__item__title-apple-card {
+  margin-top: 40px;
+  display: grid;
+  grid-auto-flow: column;
+  place-content: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.links-container {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.promos-grid__item__title-apple-card img {
+  width: 30px;
+}
+
 /* This is the Footer of the page */
 
 .footer {
