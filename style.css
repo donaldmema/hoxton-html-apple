@@ -292,10 +292,11 @@ a.fill-div {
   background-color: #f5f5f7;
 }
 
-/* TODO: make this flexible not absolute */
 .footer__container {
   margin-left: 20vw;
   margin-right: 20vw;
+  border-bottom: 2px solid #e6e6e6;
+  margin-bottom: 30px;
 }
 
 .footer__notes {
@@ -325,6 +326,7 @@ a.fill-div {
   padding: 15px;
   display: grid;
   justify-content: start;
+  margin-bottom: 10px;
 }
 
 .footer-navbar {
@@ -332,15 +334,36 @@ a.fill-div {
   display: grid;
   grid-auto-flow: column;
   place-content: center;
-  gap: 10px;
+  gap: 100px;
 }
 
 .footer-navbar h4 {
   font-size: 12px;
   font-weight: 700;
   color: #1d1d1f;
+  margin-bottom: 10px;
 }
 
 .footer-navbar ul {
   list-style: none;
+}
+
+.footer-navbar a {
+  text-decoration: none;
+  color: #424245;
+  font-size: 12px;
+}
+
+.footer-navbar a:hover {
+  text-decoration: underline;
+}
+
+.multiple-sections {
+  display: grid;
+  gap: 20px;
+}
+
+.footer-navbar__item {
+  display: grid;
+  gap: 10px;
 }
